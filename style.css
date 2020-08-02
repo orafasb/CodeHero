@@ -320,9 +320,7 @@ footer{
   .candidate p {
     width: 100%;
   }
-  .container{
-    background-color: #7159c1;
-  }
+  
 }
 
 @media only screen and (max-width: 430px) {
