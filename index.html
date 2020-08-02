@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--Criação para teste Objective -->
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CodeHero/css/style.css">
+  <title>CodeHero</title>
+</head>
+
+
+<!-- <body onresize="responsive()"> -->
+
+<body>
+  <header>
+    <div class="candidate">
+      <img src="/CodeHero/assets/logo.png" alt="Enterprise logo" id="logo">
+      <p>
+        <strong>Nome do candidato: </strong>
+        <span class="name">Rafael Bordignon</span>
+        <span id="initial" class="icon iconTop button">RB</span>
+      </p>
+    </div>
+  </header>
+
+  <div id="popup" hidden="true">
+    <div id="background">
+      <div class="popup_box">
+        <button onclick="closePopUp()" class="icon button" style="float: right; margin-right:10px;">X</button>
+        <div id="hero_info" style="padding: 45px;">
+          <img id="info_img" src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg" alt="" class="img_big">
+          <h2 id="name" class="dark_text"></h2>
+          <h4 class="dark_text">Séries Participadas</h4>
+          <div id="series" class="dark_text">3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="searches">
+      <div id="content">
+        <nav>
+          <h1>Busca de personagens</h1>
+          <div class="charactersName">
+            <h3>Nome do personagem</h3>
+          </div>
+          <div class="searchigCharactersName"><input type="text" id="heroSearches" class="dark_text" placeholder="Hero...
+            ">
+            <button id="search" class="button">Buscar</button>
+          </div>
+        </nav>
+        <div id="list_header">
+          <ul class="types">
+            <li class="imagesize remove_on_mobile">Personagem</li>
+            <li class="name_box remove_on_mobile">Nome</li>
+            <li class="series_list remove_on_mobile">Series</li>
+          </ul>
+        </div>
+        <div id="list"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <button class="icon button" onclick="getHeros(1)">
+      1
+    </button>
+    <button class="icon button" onclick="getHeros(2)">
+      2
+    </button>
+    <button class="icon button" onclick="getHeros(3)">
+      3
+    </button>
+    <button class="icon button" onclick="getHeros(4)">
+      4
+    </button>
+    <button class="icon button" onclick="getHeros(5)">
+      5
+    </button>
+    <button class="icon button" onclick="getHeros(6)">
+      6
+    </button>
+    <button class="icon button" onclick="getHeros(7)">
+      7
+    </button>
+    <button class="icon button" onclick="getHeros(8)">
+      8
+    </button>
+    <button class="icon button" onclick="getHeros(9)">
+      9
+    </button>
+    <button class="icon button" onclick="getHeros(10)">
+      10
+    </button>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
