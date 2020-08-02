@@ -4,3 +4,6 @@ Projeto CodeHero - Objective Group
 
 # Responsivo
 ![](https://github.com/orafasb/CodeHero/blob/master/04.PNG?raw=true)
+
+# Detalhes
+![](https://github.com/orafasb/CodeHero/blob/master/02.PNG?raw=true)
